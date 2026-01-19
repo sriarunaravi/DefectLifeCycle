@@ -1,0 +1,31 @@
+Definition:
+The Defect Life Cycle is the sequence of states that a defect goes through from the time it is identified until it is closed.
+Defect Life Cycle States:
+New → Assigned → Open → Fixed → Retest → Verified → Closed
+                   ↘ Rejected
+                   ↘ Deferred
+                   ↘ Duplicate
+                   ↘ Reopened
+Explanation of Each State:
+Status	                     Description
+New  	                   Defect is logged by tester
+Assigned	               Assigned to developer or team
+Open	                   Developer starts working
+Fixed	                   Developer fixes the defect
+Retest	                 Tester retests the fix
+Verified	               Tester confirms defect is fixed
+Closed	                 Defect is formally closed
+Rejected	               Invalid / not a defect
+Deferred	               Fix postponed to future release
+Duplicate	               Same defect already reported
+Reopened	               Defect still exists after fix
+Example:
+Tester finds login error → New
+
+Lead assigns to dev → Assigned
+
+Dev fixes → Fixed
+
+Tester retests → Verified
+
+Defect closed → Closed
