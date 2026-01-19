@@ -1,0 +1,33 @@
+Definition
+Test Metrics are quantitative measurements used to monitor, control, and improve the testing process and product quality.
+Why Test Metrics Are Used:
+Measure test progress
+Measure software quality
+Identify risks
+Support management decisions
+Types of Test Metrics:
+1.Process Metrics
+Measure testing efficiency
+Test case execution rate
+Defect detection rate
+2.Product Metrics
+Measure product quality
+Defect density
+Defect severity index
+3.Project Metrics
+Measure project status
+Schedule variance
+Effort variance
+Example of Test Metric
+Defect Density
+Defect Density = Total Defects / Size of Software
+Example:
+Defects = 40
+Size = 10 KLOC
+Defect Density = 40 / 10 = 4 defects per KLOC
+Common Test Metrics Table
+Metric Name	                                 Formula
+Test Case Execution %	                (Executed / Total) × 100
+Defect Leakage	                      (UAT defects / Total defects) × 100
+Defect Density	                      Defects / KLOC
+Defect Rejection Rate	                (Rejected / Total) × 100
